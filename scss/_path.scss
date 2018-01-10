@@ -1,0 +1,14 @@
+/* -----------
+  FONT PATH
+--------------*/
+
+@font-face {
+  font-family: 'apptio-icon';
+  src:  url('#{$apptio-icon-font-path}/apptio-icon.eot?spycik');
+  src:  url('#{$apptio-icon-font-path}/apptio-icon.eot?spycik#iefix') format('embedded-opentype'),
+  url('#{$apptio-icon-font-path}/apptio-icon.ttf?spycik') format('truetype'),
+  url('#{$apptio-icon-font-path}/apptio-icon.woff?spycik') format('woff'),
+  url('#{$apptio-icon-font-path}/apptio-icon.svg?spycik#apptio') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
